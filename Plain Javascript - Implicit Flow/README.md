@@ -1,4 +1,4 @@
-# mIDentity One OpenId Connect - Implicit Flow using Plain Javascript
+# mIDentityOne - Implicit Flow using Plain Javascript
 
 This repo contains plain javascript example app that demonstrate the various OpenId Connect's Implicit flow.
 

@@ -1,5 +1,5 @@
 
-# mIDentity One OpenId Connect Samples
+# mIDentityOne OpenId Connect Samples
 
 This repo contains plain javascript and express example apps that demonstrate the various OpenId Connect flows
 

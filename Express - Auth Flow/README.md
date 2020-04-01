@@ -1,4 +1,4 @@
-# mIDentity One OpenId Connect - Authorization Flow using Express Framework
+# mIDentityOne - Authorization Flow using Express Framework
 
 ## About
 This repo contains express example app that demonstrate the various OpenId Connect's Authorization flows. This is a Node.js Express app that uses Keycloak to protect the /authorizedRoute route, Login and user setup are controlled by keycloak. The default route / is unprotected. The /logout route clears the keycloak session.
