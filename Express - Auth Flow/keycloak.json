@@ -1,0 +1,5 @@
+{
+  "realm": "ellipsis",
+  "auth-server-url": "https://ellipsis.api.midentity.one/auth",
+  "resource": "middemo"
+}
