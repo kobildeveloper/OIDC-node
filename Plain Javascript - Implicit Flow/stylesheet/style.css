@@ -6,8 +6,10 @@ body{
 }
 .mdWrapper {
     width: 500px;
-    margin: auto;
+    margin: 10% auto 0;
     text-align: center;
+    border: solid 1px #e8e8e8;
+    padding: 40px 0 60px;
 }
 .mdWrapper img{
     max-width: 100%;
