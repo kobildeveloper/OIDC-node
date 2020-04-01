@@ -16,9 +16,9 @@
         <script src="./script/keycloak.js"></script>
         <script>
             let keycloak = new Keycloak({
-                "url": "https://ellipsis.api.midentity.one/auth",
-                "realm": "ellipsis",
-                "clientId": "midtest"
+                "url": "https://{partnerid}.{hostname}/auth",
+                "realm": "your-midentity-one-oidc-tenant-id",
+                "clientId": "your-midentity-one-oidc-app-client-id"
             });
             function authenticateLogin(){
                 keycloak.init({

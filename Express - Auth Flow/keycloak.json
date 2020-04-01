@@ -1,5 +1,5 @@
 {
-  "realm": "ellipsis",
-  "auth-server-url": "https://ellipsis.api.midentity.one/auth",
-  "resource": "middemo"
+  "realm": "your-midentity-one-oidc-tenant-id",
+  "auth-server-url": "https://{partnerid}.{hostname}/auth",
+  "resource": "your-midentity-one-oidc-app-client-id"
 }
