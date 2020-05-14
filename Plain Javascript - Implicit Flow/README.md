@@ -5,10 +5,15 @@ This repo contains plain javascript example app that demonstrate the various Ope
 ## Instructions
 1. Initially clone this repository
 2. Navigate to `Plain Javascript - Implicit Flow` folder in terminal
-3. Need to install [http-server](https://www.npmjs.com/package/http-server), to serve the `index.html` file as localhost
-4. RUN `npm i http-server -g` to install `http-server` as a global package
-5. Once `http-server` is installed, RUN `http-server` in the same terminal, pointing to the root folder which has `index.html` file
-6. You will receive a localhost URL, open that specific URL in the browser to view your initial screen
+3. You can configure your OIDC related information in ```./index.html``` file
+4. Make sure you replace `your-midentity-one-oidc-tenant-id` with your TenantID and `your-midentity-one-oidc-app-client-id` with your ClientID  when you created your OpenId Connect app via the mIDentity One portal
+5. Change `{partnerid}.{hostname}` to match the sub-domain by mIDentity One portal
+6. Need to install [http-server](https://www.npmjs.com/package/http-server), to serve the `index.html` file as localhost
+7. RUN `npm i http-server -g` to install `http-server` as a global package
+8. Once `http-server` is installed, RUN `http-server` in the same terminal, pointing to the root folder which has `index.html` file
+9. You will receive a localhost URL, open that specific URL in the browser to view your initial screen
+
+**Note:** Check with mIDentity One administrator to enable Implicit Flow
 
 ### Example
 ```
