@@ -6,10 +6,13 @@ This repo contains express example app that demonstrate the various OpenId Conne
 ## Instructions
 1. Initially clone this repository
 2. Navigate to `Express - Auth Flow` folder
-3. RUN `npm install`
-4. After installation of NPM packages, RUN `npm run start`
-5. By default this node app will run port `3000`
-6. Finally go to browser and launch `http://localhost:3000`
+3. You can configure your OIDC related information in ```./keycloak.json``` file
+4. Make sure you replace `your-midentity-one-oidc-tenant-id` with your TenantID and `your-midentity-one-oidc-app-client-id` with your ClientID  when you created your OpenId Connect app via the mIDentity One portal.
+5. Change `{partnerid}.{hostname}` to match the sub-domain by mIDentity One portal.
+6. RUN `npm install`
+7. After installation of NPM packages, RUN `npm run start`
+8. By default this node app will run port `3000`
+9. Finally go to browser and launch `http://localhost:3000`
 
 ## Approach to work with the authorization flow
 
