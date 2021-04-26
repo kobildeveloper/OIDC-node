@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang>
     <head>
-        <title>mIDentity One - OIDC Authentication</title>
+        <title>mIDentity Box - OIDC Authentication</title>
         <link rel="shortcut icon" type="image/png" href="./logo.png"/>
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
         <link href="./stylesheet/style.css" rel="stylesheet">
     </head>
     <body>
         <div class="mdWrapper">
-            <img src="./logo.png" alt="mIDentity One" />
-            <h3>mIdentity One Demo</h3>
+            <img src="./logo.png" alt="mIDentity Box" />
+            <h3>mIdentity Box Demo</h3>
             <h4>Plain Javascript - Implicit flow authentication</h4>
             <button class="btn-normal" onclick="authenticateLogin()">Login</button>
         </div>
@@ -17,8 +17,8 @@
         <script>
             let keycloak = new Keycloak({
                 "url": "https://{partnerid}.{hostname}/auth",
-                "realm": "your-midentity-one-oidc-tenant-id",
-                "clientId": "your-midentity-one-oidc-app-client-id"
+                "realm": "your-midentity-box-oidc-tenant-id",
+                "clientId": "your-midentity-box-oidc-app-client-id"
             });
             function authenticateLogin(){
                 keycloak.init({
