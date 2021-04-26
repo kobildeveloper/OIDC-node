@@ -1,8 +1,8 @@
 {
-  "name": "midentityone-authflow",
+  "name": "midentitybox-authflow",
   "version": "1.0.0",
   "private": true,
-  "repository": "https://github.com/midentityone/OIDC-node",
+  "repository": "https://github.com/kobildeveloper/OIDC-node",
   "author": "sriram.karthick@grootan.com",
   "license": "ISC",
   "dependencies": {
