@@ -1,5 +1,5 @@
 {
-  "realm": "your-midentity-one-oidc-tenant-id",
+  "realm": "your-midentity-box-oidc-tenant-id",
   "auth-server-url": "https://{partnerid}.{hostname}/auth",
-  "resource": "your-midentity-one-oidc-app-client-id"
+  "resource": "your-midentity-box-oidc-app-client-id"
 }
