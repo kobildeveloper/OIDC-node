@@ -1,4 +1,4 @@
-/* Created by mIDentityOne */
+/* Created by mIDentityBox */
 'use strict';
 
 const Keycloak = require('keycloak-connect');
@@ -8,7 +8,7 @@ const expressHbs = require('express-handlebars');
 
 const app = express();
 
-const PAGE_TITLE = "mIDentityOne Demo - "
+const PAGE_TITLE = "mIDentityBox Demo - "
 // Register 'handelbars' extension with The Mustache Express
 app.engine('hbs', expressHbs({extname:'hbs',
   defaultLayout:'layout.hbs',
